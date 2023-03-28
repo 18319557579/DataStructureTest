@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="显示链表"/>
+
+            <Button
+                android:id="@+id/btn_add_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="表尾增加"/>
+
+            <Button
+                android:id="@+id/btn_add_index"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="指定位置增加"/>
+
+            <Button
+                android:id="@+id/btn_get"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获得指定位置的元素"/>
+
+            <EditText
+                android:id="@+id/edt_element"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="输出要查找的元素"/>
+
+            <Button
+                android:id="@+id/btn_get_index"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获得指点元素的索引"/>
+
+            <Button
+                android:id="@+id/btn_delete_index"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="删除指定位置的元素"/>
+
+            <Button
+                android:id="@+id/btn_delete_element"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="删除指定元素"/>
+
+            <Button
+                android:id="@+id/btn_modify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改元素吧"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</layout>
